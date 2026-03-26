@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularios - Daniel Félix - 602</title>
+</head>
+<body>
+
+	<h2>Formularios</h2>
+	<h4>Por: Daniel Félix - 602</h4>
+	<p>Los formularios son campos que permiten el ingreso de datos a la página, esto permite la interacción con el usuario.</p>
+
+	
+
+	<form>
+		<label>Nombre:</label>
+
+		<input type="text" name="nombre" placeholder="Nombre completo" size="50" required>
+		
+		<br>
+		<label>Correo Electrónico</label>
+		<input type="email" name="correo"
+		placeholder="Escribe tu correo"
+		required size="50">
+
+		<br>
+
+		<label>Contraseña</label>
+		<input type="password" name="clave"
+		placeholder="Minimo 8 caracteres"
+		minlength="8">
+		<br>
+		<label>Fecha de Nacimiento:</label>
+		<input type="date" name="Fecha" required>
+		<br>
+
+		<label>Nacionalidad</label>
+		<select>
+			<option selected disabled>Selecciona País</option>
+			<option>México</option>
+			<option>Japón</option>
+			<option>Norcorea</option>
+			<option>Estados unidos</option>
+			<option>Perú</option>
+			<option>Rusia</option>
+			<option>Brasil</option>
+			<option>China</option>
+			<option>India</option>
+		</select>
+		<br>
+		<label>Selecciona tus pasatiempos</label> <br>
+		<input type="checkbox" name="">Leer <br>
+		<input type="checkbox" name="">Escuchar Musica <br>
+		<input type="checkbox" name="">Pintar <br>
+		<input type="checkbox" name=""> Escribir <br>
+		<input type="checkbox" name="">Jugar videojuegos <br>
+
+
+		<br>
+		<input type="submit" name="boton" value="Contacta al 602">
+
+		<input type="reset" name="limpiar">
+
+	</form>
+
+	<ul><li><a href="../index.html">Regresar a mi página</a></li></ul>
+
+</body>
+</html>
